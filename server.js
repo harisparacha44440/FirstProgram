@@ -16,6 +16,6 @@ app.get('/github', (req, res) => {
   })
 })
 
-app.listen(process.env.PORT, () => {
+app.listen(port, () => {
   console.log(`Example app listening on port ${process.env.PORT}`)
 })
